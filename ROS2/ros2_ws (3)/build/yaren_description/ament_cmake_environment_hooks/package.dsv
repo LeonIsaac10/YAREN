@@ -1,0 +1,4 @@
+source;share/yaren_description/local_setup.bash
+source;share/yaren_description/local_setup.dsv
+source;share/yaren_description/local_setup.sh
+source;share/yaren_description/local_setup.zsh

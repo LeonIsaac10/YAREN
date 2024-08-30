@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target move_yaren[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/move_yaren.dir/src/move_yaren.cpp.o[0m
+[100%] [32m[1mLinking CXX executable move_yaren[0m
+[100%] Built target move_yaren
+-- Install configuration: ""
+-- Installing: /home/user/ros2_ws/install/moveit/lib/moveit/move_yaren
+-- Set runtime path of "/home/user/ros2_ws/install/moveit/lib/moveit/move_yaren" to ""
+-- Installing: /home/user/ros2_ws/install/moveit/share/ament_index/resource_index/package_run_dependencies/moveit
+-- Installing: /home/user/ros2_ws/install/moveit/share/ament_index/resource_index/parent_prefix_path/moveit
+-- Up-to-date: /home/user/ros2_ws/install/moveit/share/moveit/environment/ament_prefix_path.sh
+-- Installing: /home/user/ros2_ws/install/moveit/share/moveit/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/moveit/share/moveit/environment/path.sh
+-- Installing: /home/user/ros2_ws/install/moveit/share/moveit/environment/path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/moveit/share/moveit/local_setup.bash
+-- Up-to-date: /home/user/ros2_ws/install/moveit/share/moveit/local_setup.sh
+-- Up-to-date: /home/user/ros2_ws/install/moveit/share/moveit/local_setup.zsh
+-- Installing: /home/user/ros2_ws/install/moveit/share/moveit/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/moveit/share/moveit/package.dsv
+-- Up-to-date: /home/user/ros2_ws/install/moveit/share/ament_index/resource_index/packages/moveit
+-- Up-to-date: /home/user/ros2_ws/install/moveit/share/moveit/cmake/moveitConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/moveit/share/moveit/cmake/moveitConfig-version.cmake
+-- Installing: /home/user/ros2_ws/install/moveit/share/moveit/package.xml

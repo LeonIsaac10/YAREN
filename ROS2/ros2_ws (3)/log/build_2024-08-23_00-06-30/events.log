@@ -1,0 +1,681 @@
+[0.000000] (-) TimerEvent: {}
+[0.000356] (-) JobUnselected: {'identifier': 'yaren_description'}
+[0.000575] (moveit) JobQueued: {'identifier': 'moveit', 'dependencies': OrderedDict([('yaren_description', '/home/user/ros2_ws/install/yaren_description')])}
+[0.001010] (moveit) JobStarted: {'identifier': 'moveit'}
+[0.018684] (moveit) JobProgress: {'identifier': 'moveit', 'progress': 'cmake'}
+[0.019416] (moveit) JobProgress: {'identifier': 'moveit', 'progress': 'build'}
+[0.020074] (moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/moveit', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/moveit', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://4_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '4_xterm'), ('PWD', '/home/user/ros2_ws/build/moveit'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/moveit:/home/user/ros2_ws/install/yaren_description:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/yaren_description:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/ros2_ws/install/moveit:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '4_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://4_xterm:11311'), ('ROS_HOSTNAME', '4_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '820450'), ('SLOT_PREFIX', '042bae1b-adec-4013-bd07-325e6822e446'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25759'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20004'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.205333] (-) TimerEvent: {}
+[0.305859] (-) TimerEvent: {}
+[0.406215] (-) TimerEvent: {}
+[0.506521] (-) TimerEvent: {}
+[0.606823] (-) TimerEvent: {}
+[0.707114] (-) TimerEvent: {}
+[0.807437] (-) TimerEvent: {}
+[0.907754] (-) TimerEvent: {}
+[1.008059] (-) TimerEvent: {}
+[1.108360] (-) TimerEvent: {}
+[1.208660] (-) TimerEvent: {}
+[1.308950] (-) TimerEvent: {}
+[1.409255] (-) TimerEvent: {}
+[1.509553] (-) TimerEvent: {}
+[1.609864] (-) TimerEvent: {}
+[1.710149] (-) TimerEvent: {}
+[1.810448] (-) TimerEvent: {}
+[1.910762] (-) TimerEvent: {}
+[2.011057] (-) TimerEvent: {}
+[2.111370] (-) TimerEvent: {}
+[2.211684] (-) TimerEvent: {}
+[2.312449] (-) TimerEvent: {}
+[2.412794] (-) TimerEvent: {}
+[2.513140] (-) TimerEvent: {}
+[2.613447] (-) TimerEvent: {}
+[2.713791] (-) TimerEvent: {}
+[2.814090] (-) TimerEvent: {}
+[2.914405] (-) TimerEvent: {}
+[3.014713] (-) TimerEvent: {}
+[3.115033] (-) TimerEvent: {}
+[3.215342] (-) TimerEvent: {}
+[3.315638] (-) TimerEvent: {}
+[3.415929] (-) TimerEvent: {}
+[3.516237] (-) TimerEvent: {}
+[3.617422] (-) TimerEvent: {}
+[3.717770] (-) TimerEvent: {}
+[3.818095] (-) TimerEvent: {}
+[3.918423] (-) TimerEvent: {}
+[4.018775] (-) TimerEvent: {}
+[4.119077] (-) TimerEvent: {}
+[4.219371] (-) TimerEvent: {}
+[4.319687] (-) TimerEvent: {}
+[4.419989] (-) TimerEvent: {}
+[4.577725] (-) TimerEvent: {}
+[4.678054] (-) TimerEvent: {}
+[4.778378] (-) TimerEvent: {}
+[4.878714] (-) TimerEvent: {}
+[4.979021] (-) TimerEvent: {}
+[5.079336] (-) TimerEvent: {}
+[5.179644] (-) TimerEvent: {}
+[5.279950] (-) TimerEvent: {}
+[5.380265] (-) TimerEvent: {}
+[5.480562] (-) TimerEvent: {}
+[5.580854] (-) TimerEvent: {}
+[5.681159] (-) TimerEvent: {}
+[5.781469] (-) TimerEvent: {}
+[5.881787] (-) TimerEvent: {}
+[5.982089] (-) TimerEvent: {}
+[6.082948] (-) TimerEvent: {}
+[6.183253] (-) TimerEvent: {}
+[6.283541] (-) TimerEvent: {}
+[6.383843] (-) TimerEvent: {}
+[6.484129] (-) TimerEvent: {}
+[6.584467] (-) TimerEvent: {}
+[6.684790] (-) TimerEvent: {}
+[6.734711] (moveit) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.784912] (-) TimerEvent: {}
+[6.885256] (-) TimerEvent: {}
+[6.985584] (-) TimerEvent: {}
+[7.085900] (-) TimerEvent: {}
+[7.186210] (-) TimerEvent: {}
+[7.286521] (-) TimerEvent: {}
+[7.387445] (-) TimerEvent: {}
+[7.487765] (-) TimerEvent: {}
+[7.588088] (-) TimerEvent: {}
+[7.688381] (-) TimerEvent: {}
+[7.788649] (-) TimerEvent: {}
+[7.888925] (-) TimerEvent: {}
+[7.918761] (moveit) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.989041] (-) TimerEvent: {}
+[8.089389] (-) TimerEvent: {}
+[8.189707] (-) TimerEvent: {}
+[8.290011] (-) TimerEvent: {}
+[8.292610] (moveit) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[8.300751] (moveit) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.323672] (moveit) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[8.390131] (-) TimerEvent: {}
+[8.468731] (moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.490234] (-) TimerEvent: {}
+[8.503671] (moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.590348] (-) TimerEvent: {}
+[8.690658] (-) TimerEvent: {}
+[8.790944] (-) TimerEvent: {}
+[8.891243] (-) TimerEvent: {}
+[8.991585] (-) TimerEvent: {}
+[9.091873] (-) TimerEvent: {}
+[9.192166] (-) TimerEvent: {}
+[9.292497] (-) TimerEvent: {}
+[9.328732] (moveit) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.392606] (-) TimerEvent: {}
+[9.417539] (moveit) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.492726] (-) TimerEvent: {}
+[9.593023] (-) TimerEvent: {}
+[9.693334] (-) TimerEvent: {}
+[9.794421] (-) TimerEvent: {}
+[9.894748] (-) TimerEvent: {}
+[9.995048] (-) TimerEvent: {}
+[10.095359] (-) TimerEvent: {}
+[10.195657] (-) TimerEvent: {}
+[10.295968] (-) TimerEvent: {}
+[10.396261] (-) TimerEvent: {}
+[10.496571] (-) TimerEvent: {}
+[10.504880] (moveit) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.596673] (-) TimerEvent: {}
+[10.696957] (-) TimerEvent: {}
+[10.797248] (-) TimerEvent: {}
+[10.897545] (-) TimerEvent: {}
+[10.997893] (-) TimerEvent: {}
+[11.098179] (-) TimerEvent: {}
+[11.198511] (-) TimerEvent: {}
+[11.298801] (-) TimerEvent: {}
+[11.399114] (-) TimerEvent: {}
+[11.499431] (-) TimerEvent: {}
+[11.599734] (-) TimerEvent: {}
+[11.700048] (-) TimerEvent: {}
+[11.800354] (-) TimerEvent: {}
+[11.865507] (moveit) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[11.900471] (-) TimerEvent: {}
+[12.000767] (-) TimerEvent: {}
+[12.101065] (-) TimerEvent: {}
+[12.202277] (-) TimerEvent: {}
+[12.302663] (-) TimerEvent: {}
+[12.402975] (-) TimerEvent: {}
+[12.503294] (-) TimerEvent: {}
+[12.603609] (-) TimerEvent: {}
+[12.703918] (-) TimerEvent: {}
+[12.804208] (-) TimerEvent: {}
+[12.811121] (moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[12.904363] (-) TimerEvent: {}
+[13.004676] (-) TimerEvent: {}
+[13.104971] (-) TimerEvent: {}
+[13.205276] (-) TimerEvent: {}
+[13.305571] (-) TimerEvent: {}
+[13.405948] (-) TimerEvent: {}
+[13.506475] (-) TimerEvent: {}
+[13.606860] (-) TimerEvent: {}
+[13.707150] (-) TimerEvent: {}
+[13.807449] (-) TimerEvent: {}
+[13.907757] (-) TimerEvent: {}
+[14.008059] (-) TimerEvent: {}
+[14.108382] (-) TimerEvent: {}
+[14.208683] (-) TimerEvent: {}
+[14.308987] (-) TimerEvent: {}
+[14.409346] (-) TimerEvent: {}
+[14.509759] (-) TimerEvent: {}
+[14.610061] (-) TimerEvent: {}
+[14.710358] (-) TimerEvent: {}
+[14.811431] (-) TimerEvent: {}
+[14.911768] (-) TimerEvent: {}
+[15.012074] (-) TimerEvent: {}
+[15.112386] (-) TimerEvent: {}
+[15.202851] (moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[15.212504] (-) TimerEvent: {}
+[15.222394] (moveit) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.7 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[15.312620] (-) TimerEvent: {}
+[15.412909] (-) TimerEvent: {}
+[15.496181] (moveit) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[15.513032] (-) TimerEvent: {}
+[15.580466] (moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[15.613136] (-) TimerEvent: {}
+[15.713423] (-) TimerEvent: {}
+[15.813785] (-) TimerEvent: {}
+[15.914082] (-) TimerEvent: {}
+[16.014374] (-) TimerEvent: {}
+[16.114681] (-) TimerEvent: {}
+[16.214973] (-) TimerEvent: {}
+[16.315272] (-) TimerEvent: {}
+[16.415582] (-) TimerEvent: {}
+[16.515894] (-) TimerEvent: {}
+[16.616210] (-) TimerEvent: {}
+[16.716537] (-) TimerEvent: {}
+[16.784561] (moveit) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[16.816651] (-) TimerEvent: {}
+[16.916956] (-) TimerEvent: {}
+[17.017268] (-) TimerEvent: {}
+[17.117625] (-) TimerEvent: {}
+[17.218449] (-) TimerEvent: {}
+[17.318777] (-) TimerEvent: {}
+[17.359419] (moveit) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[17.418912] (-) TimerEvent: {}
+[17.519277] (-) TimerEvent: {}
+[17.619567] (-) TimerEvent: {}
+[17.719878] (-) TimerEvent: {}
+[17.820180] (-) TimerEvent: {}
+[17.920485] (-) TimerEvent: {}
+[18.020771] (-) TimerEvent: {}
+[18.121078] (-) TimerEvent: {}
+[18.170939] (moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[18.221187] (-) TimerEvent: {}
+[18.321564] (-) TimerEvent: {}
+[18.421897] (-) TimerEvent: {}
+[18.523940] (-) TimerEvent: {}
+[18.624203] (-) TimerEvent: {}
+[18.724547] (-) TimerEvent: {}
+[18.824842] (-) TimerEvent: {}
+[18.864424] (moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[18.924978] (-) TimerEvent: {}
+[19.025272] (-) TimerEvent: {}
+[19.125568] (-) TimerEvent: {}
+[19.167168] (moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[19.225712] (-) TimerEvent: {}
+[19.326014] (-) TimerEvent: {}
+[19.426322] (-) TimerEvent: {}
+[19.526672] (-) TimerEvent: {}
+[19.626987] (-) TimerEvent: {}
+[19.727328] (-) TimerEvent: {}
+[19.828353] (-) TimerEvent: {}
+[19.928715] (-) TimerEvent: {}
+[20.029052] (-) TimerEvent: {}
+[20.078715] (moveit) StdoutLine: {'line': b'-- Configuring done\n'}
+[20.129156] (-) TimerEvent: {}
+[20.229429] (-) TimerEvent: {}
+[20.329772] (-) TimerEvent: {}
+[20.430063] (-) TimerEvent: {}
+[20.530364] (-) TimerEvent: {}
+[20.630690] (-) TimerEvent: {}
+[20.731018] (-) TimerEvent: {}
+[20.831313] (-) TimerEvent: {}
+[20.931634] (-) TimerEvent: {}
+[21.031929] (-) TimerEvent: {}
+[21.132221] (-) TimerEvent: {}
+[21.232553] (-) TimerEvent: {}
+[21.332899] (-) TimerEvent: {}
+[21.433208] (-) TimerEvent: {}
+[21.533513] (-) TimerEvent: {}
+[21.633847] (-) TimerEvent: {}
+[21.710538] (moveit) StdoutLine: {'line': b'-- Generating done\n'}
+[21.714136] (moveit) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/build/moveit\n'}
+[21.733946] (-) TimerEvent: {}
+[21.778754] (moveit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/move_yaren.dir/src/move_yaren.cpp.o\x1b[0m\n'}
+[21.834057] (-) TimerEvent: {}
+[21.934362] (-) TimerEvent: {}
+[22.034705] (-) TimerEvent: {}
+[22.135036] (-) TimerEvent: {}
+[22.235332] (-) TimerEvent: {}
+[22.335657] (-) TimerEvent: {}
+[22.435958] (-) TimerEvent: {}
+[22.536269] (-) TimerEvent: {}
+[22.636569] (-) TimerEvent: {}
+[22.736894] (-) TimerEvent: {}
+[22.837183] (-) TimerEvent: {}
+[22.937478] (-) TimerEvent: {}
+[23.037865] (-) TimerEvent: {}
+[23.138164] (-) TimerEvent: {}
+[23.238472] (-) TimerEvent: {}
+[23.338769] (-) TimerEvent: {}
+[23.439065] (-) TimerEvent: {}
+[23.540360] (-) TimerEvent: {}
+[23.640665] (-) TimerEvent: {}
+[23.740968] (-) TimerEvent: {}
+[23.841266] (-) TimerEvent: {}
+[23.941570] (-) TimerEvent: {}
+[24.041890] (-) TimerEvent: {}
+[24.142199] (-) TimerEvent: {}
+[24.242525] (-) TimerEvent: {}
+[24.342828] (-) TimerEvent: {}
+[24.443124] (-) TimerEvent: {}
+[24.543462] (-) TimerEvent: {}
+[24.643765] (-) TimerEvent: {}
+[24.744069] (-) TimerEvent: {}
+[24.845316] (-) TimerEvent: {}
+[24.945660] (-) TimerEvent: {}
+[25.045975] (-) TimerEvent: {}
+[25.146289] (-) TimerEvent: {}
+[25.246608] (-) TimerEvent: {}
+[25.346928] (-) TimerEvent: {}
+[25.447220] (-) TimerEvent: {}
+[25.547517] (-) TimerEvent: {}
+[25.647818] (-) TimerEvent: {}
+[25.748126] (-) TimerEvent: {}
+[25.848422] (-) TimerEvent: {}
+[25.948714] (-) TimerEvent: {}
+[26.049035] (-) TimerEvent: {}
+[26.149324] (-) TimerEvent: {}
+[26.250674] (-) TimerEvent: {}
+[26.350958] (-) TimerEvent: {}
+[26.451266] (-) TimerEvent: {}
+[26.551580] (-) TimerEvent: {}
+[26.651880] (-) TimerEvent: {}
+[26.752196] (-) TimerEvent: {}
+[26.852492] (-) TimerEvent: {}
+[26.952854] (-) TimerEvent: {}
+[27.053155] (-) TimerEvent: {}
+[27.153447] (-) TimerEvent: {}
+[27.253784] (-) TimerEvent: {}
+[27.354088] (-) TimerEvent: {}
+[27.454420] (-) TimerEvent: {}
+[27.554719] (-) TimerEvent: {}
+[27.655002] (-) TimerEvent: {}
+[27.755296] (-) TimerEvent: {}
+[27.855590] (-) TimerEvent: {}
+[27.955899] (-) TimerEvent: {}
+[28.056194] (-) TimerEvent: {}
+[28.156494] (-) TimerEvent: {}
+[28.256786] (-) TimerEvent: {}
+[28.357077] (-) TimerEvent: {}
+[28.457367] (-) TimerEvent: {}
+[28.557675] (-) TimerEvent: {}
+[28.658012] (-) TimerEvent: {}
+[28.758278] (-) TimerEvent: {}
+[28.858597] (-) TimerEvent: {}
+[28.958899] (-) TimerEvent: {}
+[29.059201] (-) TimerEvent: {}
+[29.159501] (-) TimerEvent: {}
+[29.259813] (-) TimerEvent: {}
+[29.360111] (-) TimerEvent: {}
+[29.460416] (-) TimerEvent: {}
+[29.560712] (-) TimerEvent: {}
+[29.661054] (-) TimerEvent: {}
+[29.761345] (-) TimerEvent: {}
+[29.862435] (-) TimerEvent: {}
+[29.962762] (-) TimerEvent: {}
+[30.063078] (-) TimerEvent: {}
+[30.163363] (-) TimerEvent: {}
+[30.263658] (-) TimerEvent: {}
+[30.363949] (-) TimerEvent: {}
+[30.464233] (-) TimerEvent: {}
+[30.564501] (-) TimerEvent: {}
+[30.664805] (-) TimerEvent: {}
+[30.765107] (-) TimerEvent: {}
+[30.865427] (-) TimerEvent: {}
+[30.965774] (-) TimerEvent: {}
+[31.066076] (-) TimerEvent: {}
+[31.167398] (-) TimerEvent: {}
+[31.267714] (-) TimerEvent: {}
+[31.368010] (-) TimerEvent: {}
+[31.468323] (-) TimerEvent: {}
+[31.568601] (-) TimerEvent: {}
+[31.668909] (-) TimerEvent: {}
+[31.769217] (-) TimerEvent: {}
+[31.869554] (-) TimerEvent: {}
+[31.969909] (-) TimerEvent: {}
+[32.070199] (-) TimerEvent: {}
+[32.170539] (-) TimerEvent: {}
+[32.270834] (-) TimerEvent: {}
+[32.371157] (-) TimerEvent: {}
+[32.472427] (-) TimerEvent: {}
+[32.572735] (-) TimerEvent: {}
+[32.673077] (-) TimerEvent: {}
+[32.773397] (-) TimerEvent: {}
+[32.873672] (-) TimerEvent: {}
+[32.973992] (-) TimerEvent: {}
+[33.074296] (-) TimerEvent: {}
+[33.174655] (-) TimerEvent: {}
+[33.274955] (-) TimerEvent: {}
+[33.375261] (-) TimerEvent: {}
+[33.475687] (-) TimerEvent: {}
+[33.575980] (-) TimerEvent: {}
+[33.676273] (-) TimerEvent: {}
+[33.777454] (-) TimerEvent: {}
+[33.877778] (-) TimerEvent: {}
+[33.978080] (-) TimerEvent: {}
+[34.078412] (-) TimerEvent: {}
+[34.178716] (-) TimerEvent: {}
+[34.279006] (-) TimerEvent: {}
+[34.379306] (-) TimerEvent: {}
+[34.479605] (-) TimerEvent: {}
+[34.579898] (-) TimerEvent: {}
+[34.680196] (-) TimerEvent: {}
+[34.780463] (-) TimerEvent: {}
+[34.881215] (-) TimerEvent: {}
+[34.981515] (-) TimerEvent: {}
+[35.081859] (-) TimerEvent: {}
+[35.182157] (-) TimerEvent: {}
+[35.282489] (-) TimerEvent: {}
+[35.382797] (-) TimerEvent: {}
+[35.483094] (-) TimerEvent: {}
+[35.583418] (-) TimerEvent: {}
+[35.683739] (-) TimerEvent: {}
+[35.784035] (-) TimerEvent: {}
+[35.884337] (-) TimerEvent: {}
+[35.984633] (-) TimerEvent: {}
+[36.084919] (-) TimerEvent: {}
+[36.185215] (-) TimerEvent: {}
+[36.285520] (-) TimerEvent: {}
+[36.385849] (-) TimerEvent: {}
+[36.486181] (-) TimerEvent: {}
+[36.586519] (-) TimerEvent: {}
+[36.686812] (-) TimerEvent: {}
+[36.787111] (-) TimerEvent: {}
+[36.887438] (-) TimerEvent: {}
+[36.987793] (-) TimerEvent: {}
+[37.088059] (-) TimerEvent: {}
+[37.188394] (-) TimerEvent: {}
+[37.288721] (-) TimerEvent: {}
+[37.389077] (-) TimerEvent: {}
+[37.489453] (-) TimerEvent: {}
+[37.589786] (-) TimerEvent: {}
+[37.690082] (-) TimerEvent: {}
+[37.790407] (-) TimerEvent: {}
+[37.890709] (-) TimerEvent: {}
+[37.990999] (-) TimerEvent: {}
+[38.091312] (-) TimerEvent: {}
+[38.191618] (-) TimerEvent: {}
+[38.291936] (-) TimerEvent: {}
+[38.392247] (-) TimerEvent: {}
+[38.492539] (-) TimerEvent: {}
+[38.592829] (-) TimerEvent: {}
+[38.693115] (-) TimerEvent: {}
+[38.794405] (-) TimerEvent: {}
+[38.894712] (-) TimerEvent: {}
+[38.995012] (-) TimerEvent: {}
+[39.095334] (-) TimerEvent: {}
+[39.195625] (-) TimerEvent: {}
+[39.295942] (-) TimerEvent: {}
+[39.396266] (-) TimerEvent: {}
+[39.496605] (-) TimerEvent: {}
+[39.596903] (-) TimerEvent: {}
+[39.697197] (-) TimerEvent: {}
+[39.797509] (-) TimerEvent: {}
+[39.897839] (-) TimerEvent: {}
+[39.998202] (-) TimerEvent: {}
+[40.099410] (-) TimerEvent: {}
+[40.199751] (-) TimerEvent: {}
+[40.300110] (-) TimerEvent: {}
+[40.400405] (-) TimerEvent: {}
+[40.500710] (-) TimerEvent: {}
+[40.601023] (-) TimerEvent: {}
+[40.701374] (-) TimerEvent: {}
+[40.801770] (-) TimerEvent: {}
+[40.902073] (-) TimerEvent: {}
+[41.002400] (-) TimerEvent: {}
+[41.102707] (-) TimerEvent: {}
+[41.203043] (-) TimerEvent: {}
+[41.303345] (-) TimerEvent: {}
+[41.404387] (-) TimerEvent: {}
+[41.504739] (-) TimerEvent: {}
+[41.605041] (-) TimerEvent: {}
+[41.705335] (-) TimerEvent: {}
+[41.805639] (-) TimerEvent: {}
+[41.905965] (-) TimerEvent: {}
+[42.006272] (-) TimerEvent: {}
+[42.106579] (-) TimerEvent: {}
+[42.206871] (-) TimerEvent: {}
+[42.307172] (-) TimerEvent: {}
+[42.407494] (-) TimerEvent: {}
+[42.507891] (-) TimerEvent: {}
+[42.608186] (-) TimerEvent: {}
+[42.708493] (-) TimerEvent: {}
+[42.808786] (-) TimerEvent: {}
+[42.909072] (-) TimerEvent: {}
+[43.009402] (-) TimerEvent: {}
+[43.109759] (-) TimerEvent: {}
+[43.210058] (-) TimerEvent: {}
+[43.310365] (-) TimerEvent: {}
+[43.410678] (-) TimerEvent: {}
+[43.510983] (-) TimerEvent: {}
+[43.611312] (-) TimerEvent: {}
+[43.711621] (-) TimerEvent: {}
+[43.811914] (-) TimerEvent: {}
+[43.912209] (-) TimerEvent: {}
+[44.012521] (-) TimerEvent: {}
+[44.112819] (-) TimerEvent: {}
+[44.213168] (-) TimerEvent: {}
+[44.313473] (-) TimerEvent: {}
+[44.413798] (-) TimerEvent: {}
+[44.514102] (-) TimerEvent: {}
+[44.614393] (-) TimerEvent: {}
+[44.714706] (-) TimerEvent: {}
+[44.815008] (-) TimerEvent: {}
+[44.915320] (-) TimerEvent: {}
+[45.015658] (-) TimerEvent: {}
+[45.116447] (-) TimerEvent: {}
+[45.216788] (-) TimerEvent: {}
+[45.317100] (-) TimerEvent: {}
+[45.417407] (-) TimerEvent: {}
+[45.517769] (-) TimerEvent: {}
+[45.618073] (-) TimerEvent: {}
+[45.718372] (-) TimerEvent: {}
+[45.818681] (-) TimerEvent: {}
+[45.919507] (-) TimerEvent: {}
+[46.019799] (-) TimerEvent: {}
+[46.120096] (-) TimerEvent: {}
+[46.220401] (-) TimerEvent: {}
+[46.320704] (-) TimerEvent: {}
+[46.421440] (-) TimerEvent: {}
+[46.521779] (-) TimerEvent: {}
+[46.622031] (-) TimerEvent: {}
+[46.722329] (-) TimerEvent: {}
+[46.822653] (-) TimerEvent: {}
+[46.922952] (-) TimerEvent: {}
+[47.023258] (-) TimerEvent: {}
+[47.123623] (-) TimerEvent: {}
+[47.223945] (-) TimerEvent: {}
+[47.324302] (-) TimerEvent: {}
+[47.424621] (-) TimerEvent: {}
+[47.524904] (-) TimerEvent: {}
+[47.625191] (-) TimerEvent: {}
+[47.726361] (-) TimerEvent: {}
+[47.826673] (-) TimerEvent: {}
+[47.926982] (-) TimerEvent: {}
+[48.027318] (-) TimerEvent: {}
+[48.127686] (-) TimerEvent: {}
+[48.228044] (-) TimerEvent: {}
+[48.328387] (-) TimerEvent: {}
+[48.428709] (-) TimerEvent: {}
+[48.529007] (-) TimerEvent: {}
+[48.629321] (-) TimerEvent: {}
+[48.729654] (-) TimerEvent: {}
+[48.829970] (-) TimerEvent: {}
+[48.930286] (-) TimerEvent: {}
+[49.030607] (-) TimerEvent: {}
+[49.130873] (-) TimerEvent: {}
+[49.231188] (-) TimerEvent: {}
+[49.331490] (-) TimerEvent: {}
+[49.431809] (-) TimerEvent: {}
+[49.532118] (-) TimerEvent: {}
+[49.632421] (-) TimerEvent: {}
+[49.732764] (-) TimerEvent: {}
+[49.833085] (-) TimerEvent: {}
+[49.934897] (-) TimerEvent: {}
+[50.035202] (-) TimerEvent: {}
+[50.135527] (-) TimerEvent: {}
+[50.235831] (-) TimerEvent: {}
+[50.336433] (-) TimerEvent: {}
+[50.436738] (-) TimerEvent: {}
+[50.537057] (-) TimerEvent: {}
+[50.637356] (-) TimerEvent: {}
+[50.737671] (-) TimerEvent: {}
+[50.838022] (-) TimerEvent: {}
+[50.938319] (-) TimerEvent: {}
+[51.038630] (-) TimerEvent: {}
+[51.138942] (-) TimerEvent: {}
+[51.239256] (-) TimerEvent: {}
+[51.339591] (-) TimerEvent: {}
+[51.439920] (-) TimerEvent: {}
+[51.540185] (-) TimerEvent: {}
+[51.640501] (-) TimerEvent: {}
+[51.740789] (-) TimerEvent: {}
+[51.841100] (-) TimerEvent: {}
+[51.941408] (-) TimerEvent: {}
+[52.041696] (-) TimerEvent: {}
+[52.142058] (-) TimerEvent: {}
+[52.242381] (-) TimerEvent: {}
+[52.342697] (-) TimerEvent: {}
+[52.443018] (-) TimerEvent: {}
+[52.543358] (-) TimerEvent: {}
+[52.643698] (-) TimerEvent: {}
+[52.743990] (-) TimerEvent: {}
+[52.844327] (-) TimerEvent: {}
+[52.944626] (-) TimerEvent: {}
+[53.044930] (-) TimerEvent: {}
+[53.145247] (-) TimerEvent: {}
+[53.245543] (-) TimerEvent: {}
+[53.345860] (-) TimerEvent: {}
+[53.446216] (-) TimerEvent: {}
+[53.546563] (-) TimerEvent: {}
+[53.646855] (-) TimerEvent: {}
+[53.747145] (-) TimerEvent: {}
+[53.847462] (-) TimerEvent: {}
+[53.947756] (-) TimerEvent: {}
+[54.048359] (-) TimerEvent: {}
+[54.148665] (-) TimerEvent: {}
+[54.248995] (-) TimerEvent: {}
+[54.349347] (-) TimerEvent: {}
+[54.449656] (-) TimerEvent: {}
+[54.550108] (-) TimerEvent: {}
+[54.650438] (-) TimerEvent: {}
+[54.750874] (-) TimerEvent: {}
+[54.851246] (-) TimerEvent: {}
+[54.951561] (-) TimerEvent: {}
+[55.051875] (-) TimerEvent: {}
+[55.152199] (-) TimerEvent: {}
+[55.252491] (-) TimerEvent: {}
+[55.353349] (-) TimerEvent: {}
+[55.453680] (-) TimerEvent: {}
+[55.553979] (-) TimerEvent: {}
+[55.654316] (-) TimerEvent: {}
+[55.754651] (-) TimerEvent: {}
+[55.854967] (-) TimerEvent: {}
+[55.955296] (-) TimerEvent: {}
+[56.055590] (-) TimerEvent: {}
+[56.155879] (-) TimerEvent: {}
+[56.256179] (-) TimerEvent: {}
+[56.356480] (-) TimerEvent: {}
+[56.456804] (-) TimerEvent: {}
+[56.557103] (-) TimerEvent: {}
+[56.658318] (-) TimerEvent: {}
+[56.758662] (-) TimerEvent: {}
+[56.858946] (-) TimerEvent: {}
+[56.959240] (-) TimerEvent: {}
+[57.059547] (-) TimerEvent: {}
+[57.159841] (-) TimerEvent: {}
+[57.260178] (-) TimerEvent: {}
+[57.360473] (-) TimerEvent: {}
+[57.460775] (-) TimerEvent: {}
+[57.561070] (-) TimerEvent: {}
+[57.661389] (-) TimerEvent: {}
+[57.761677] (-) TimerEvent: {}
+[57.861972] (-) TimerEvent: {}
+[57.962274] (-) TimerEvent: {}
+[58.063616] (-) TimerEvent: {}
+[58.163920] (-) TimerEvent: {}
+[58.264231] (-) TimerEvent: {}
+[58.364562] (-) TimerEvent: {}
+[58.464862] (-) TimerEvent: {}
+[58.565177] (-) TimerEvent: {}
+[58.665495] (-) TimerEvent: {}
+[58.765853] (-) TimerEvent: {}
+[58.866142] (-) TimerEvent: {}
+[58.966456] (-) TimerEvent: {}
+[59.034064] (moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[59.034289] (moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[59.034382] (moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[59.034473] (moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[59.034647] (moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/YAREN-main/moveit/src/move_yaren.cpp:1\x1b[m\x1b[K:\n'}
+[59.034741] (moveit) StderrLine: {'line': b"/usr/include/c++/11/ext/new_allocator.h: In instantiation of '\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = moveit::planning_interface::MoveGroupInterface; _Args = {MoveYaren*, const char (&)[10]}; _Tp = moveit::planning_interface::MoveGroupInterface]\x1b[m\x1b[K':\n"}
+[59.034844] (moveit) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from '\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = moveit::planning_interface::MoveGroupInterface; _Args = {MoveYaren*, const char (&)[10]}; _Tp = moveit::planning_interface::MoveGroupInterface; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<moveit::planning_interface::MoveGroupInterface>]\x1b[m\x1b[K'\n"}
+[59.034929] (moveit) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from '\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {MoveYaren*, const char (&)[10]}; _Tp = moveit::planning_interface::MoveGroupInterface; _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K'\n"}
+[59.035032] (moveit) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from '\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = moveit::planning_interface::MoveGroupInterface; _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; _Args = {MoveYaren*, const char (&)[10]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K'\n"}
+[59.035119] (moveit) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from '\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; _Args = {MoveYaren*, const char (&)[10]}; _Tp = moveit::planning_interface::MoveGroupInterface; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K'\n"}
+[59.035187] (moveit) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from '\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; _Args = {MoveYaren*, const char (&)[10]}; _Tp = moveit::planning_interface::MoveGroupInterface]\x1b[m\x1b[K'\n"}
+[59.035254] (moveit) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from '\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = moveit::planning_interface::MoveGroupInterface; _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; _Args = {MoveYaren*, const char (&)[10]}]\x1b[m\x1b[K'\n"}
+[59.035320] (moveit) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from '\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = moveit::planning_interface::MoveGroupInterface; _Args = {MoveYaren*, const char (&)[10]}]\x1b[m\x1b[K'\n"}
+[59.036328] (moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_ws/src/YAREN-main/moveit/src/move_yaren.cpp:15:87:\x1b[m\x1b[K   required from here\n'}
+[59.036430] (moveit) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to '\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(MoveYaren*, const char [10])\x1b[m\x1b[K'\n"}
+[59.036524] (moveit) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[59.036603] (moveit) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[59.036682] (moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user/ros2_ws/src/YAREN-main/moveit/src/move_yaren.cpp:2\x1b[m\x1b[K:\n'}
+[59.036759] (moveit) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: '\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)\x1b[m\x1b[K'\n"}
+[59.036845] (moveit) StderrLine: {'line': b'  159 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(MoveGroupInterface&& other) noexcept;\n'}
+[59.036927] (moveit) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[59.037018] (moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[59.037087] (moveit) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: '\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)\x1b[m\x1b[K'\n"}
+[59.037151] (moveit) StderrLine: {'line': b'  145 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(const rclcpp::Node::SharedPtr& node, const std::string& group,\n'}
+[59.037209] (moveit) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[59.037268] (moveit) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from '\x1b[01m\x1b[KMoveYaren*\x1b[m\x1b[K' to '\x1b[01m\x1b[Kconst SharedPtr&\x1b[m\x1b[K' {aka '\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Node>&\x1b[m\x1b[K'}\n"}
+[59.037336] (moveit) StderrLine: {'line': b'  145 | erface(\x1b[01;36m\x1b[Kconst rclcpp::Node::SharedPtr& node\x1b[m\x1b[K, const std::string& group,\n'}
+[59.037396] (moveit) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[59.037458] (moveit) StderrLine: {'line': b'\n'}
+[59.037523] (moveit) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: '\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)\x1b[m\x1b[K'\n"}
+[59.037591] (moveit) StderrLine: {'line': b'  134 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(const rclcpp::Node::SharedPtr& node, const Options& opt,\n'}
+[59.037678] (moveit) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[59.037739] (moveit) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from '\x1b[01m\x1b[KMoveYaren*\x1b[m\x1b[K' to '\x1b[01m\x1b[Kconst SharedPtr&\x1b[m\x1b[K' {aka '\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Node>&\x1b[m\x1b[K'}\n"}
+[59.037800] (moveit) StderrLine: {'line': b'  134 | erface(\x1b[01;36m\x1b[Kconst rclcpp::Node::SharedPtr& node\x1b[m\x1b[K, const Options& opt,\n'}
+[59.037863] (moveit) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[59.037958] (moveit) StderrLine: {'line': b'\n'}
+[59.066583] (-) TimerEvent: {}
+[59.166853] (-) TimerEvent: {}
+[59.267176] (-) TimerEvent: {}
+[59.367476] (-) TimerEvent: {}
+[59.467910] (-) TimerEvent: {}
+[59.568300] (-) TimerEvent: {}
+[59.668605] (-) TimerEvent: {}
+[59.768901] (-) TimerEvent: {}
+[59.869199] (-) TimerEvent: {}
+[59.969493] (-) TimerEvent: {}
+[60.069808] (-) TimerEvent: {}
+[60.170085] (-) TimerEvent: {}
+[60.270373] (-) TimerEvent: {}
+[60.370684] (-) TimerEvent: {}
+[60.470991] (-) TimerEvent: {}
+[60.571328] (-) TimerEvent: {}
+[60.671623] (-) TimerEvent: {}
+[60.771964] (-) TimerEvent: {}
+[60.872278] (-) TimerEvent: {}
+[60.972625] (-) TimerEvent: {}
+[61.049986] (moveit) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/move_yaren.dir/build.make:76: CMakeFiles/move_yaren.dir/src/move_yaren.cpp.o] Error 1\n'}
+[61.050250] (moveit) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_yaren.dir/all] Error 2\n'}
+[61.050386] (moveit) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[61.052311] (moveit) CommandEnded: {'returncode': 2}
+[61.072724] (-) TimerEvent: {}
+[61.117085] (moveit) JobEnded: {'identifier': 'moveit', 'rc': 2}
+[61.127635] (-) EventReactorShutdown: {}

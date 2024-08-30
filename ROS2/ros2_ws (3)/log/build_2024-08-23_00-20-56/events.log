@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.000246] (-) JobUnselected: {'identifier': 'yaren_description'}
+[0.000305] (moveit) JobQueued: {'identifier': 'moveit', 'dependencies': OrderedDict([('yaren_description', '/home/user/ros2_ws/install/yaren_description')])}
+[0.000344] (moveit) JobStarted: {'identifier': 'moveit'}
+[0.027769] (moveit) JobProgress: {'identifier': 'moveit', 'progress': 'cmake'}
+[0.027870] (moveit) JobProgress: {'identifier': 'moveit', 'progress': 'build'}
+[0.027935] (moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/moveit', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/moveit', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://4_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '4_xterm'), ('PWD', '/home/user/ros2_ws/build/moveit'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/moveit:/home/user/ros2_ws/install/yaren_description:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/yaren_description:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/ros2_ws/install/moveit:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '4_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://4_xterm:11311'), ('ROS_HOSTNAME', '4_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '820450'), ('SLOT_PREFIX', '042bae1b-adec-4013-bd07-325e6822e446'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25759'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20004'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.087053] (-) TimerEvent: {}
+[0.114191] (moveit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target move_yaren\x1b[0m\n'}
+[0.156986] (moveit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/move_yaren.dir/src/move_yaren.cpp.o\x1b[0m\n'}
+[0.187285] (-) TimerEvent: {}
+[0.288488] (-) TimerEvent: {}
+[0.388799] (-) TimerEvent: {}
+[0.489158] (-) TimerEvent: {}
+[0.589534] (-) TimerEvent: {}
+[0.689865] (-) TimerEvent: {}
+[0.790221] (-) TimerEvent: {}
+[0.890563] (-) TimerEvent: {}
+[0.990945] (-) TimerEvent: {}
+[1.091329] (-) TimerEvent: {}
+[1.191729] (-) TimerEvent: {}
+[1.292110] (-) TimerEvent: {}
+[1.392427] (-) TimerEvent: {}
+[1.492806] (-) TimerEvent: {}
+[1.593161] (-) TimerEvent: {}
+[1.693518] (-) TimerEvent: {}
+[1.793908] (-) TimerEvent: {}
+[1.894289] (-) TimerEvent: {}
+[1.994643] (-) TimerEvent: {}
+[2.094991] (-) TimerEvent: {}
+[2.195421] (-) TimerEvent: {}
+[2.295863] (-) TimerEvent: {}
+[2.396262] (-) TimerEvent: {}
+[2.496622] (-) TimerEvent: {}
+[2.600006] (-) TimerEvent: {}
+[2.700389] (-) TimerEvent: {}
+[2.800687] (-) TimerEvent: {}
+[2.901094] (-) TimerEvent: {}
+[3.001460] (-) TimerEvent: {}
+[3.101836] (-) TimerEvent: {}
+[3.202260] (-) TimerEvent: {}
+[3.302683] (-) TimerEvent: {}
+[3.403106] (-) TimerEvent: {}
+[3.503474] (-) TimerEvent: {}
+[3.603982] (-) TimerEvent: {}
+[3.704363] (-) TimerEvent: {}
+[3.804660] (-) TimerEvent: {}
+[3.904973] (-) TimerEvent: {}
+[4.005307] (-) TimerEvent: {}
+[4.105661] (-) TimerEvent: {}
+[4.206189] (-) TimerEvent: {}
+[4.306609] (-) TimerEvent: {}
+[4.406997] (-) TimerEvent: {}
+[4.507387] (-) TimerEvent: {}
+[4.607824] (-) TimerEvent: {}
+[4.708257] (-) TimerEvent: {}
+[4.810135] (-) TimerEvent: {}
+[4.910512] (-) TimerEvent: {}
+[5.010832] (-) TimerEvent: {}
+[5.111175] (-) TimerEvent: {}
+[5.211668] (-) TimerEvent: {}
+[5.312105] (-) TimerEvent: {}
+[5.412632] (-) TimerEvent: {}
+[5.513065] (-) TimerEvent: {}
+[5.616013] (-) TimerEvent: {}
+[5.716425] (-) TimerEvent: {}
+[5.816816] (-) TimerEvent: {}
+[5.917248] (-) TimerEvent: {}
+[6.017621] (-) TimerEvent: {}
+[6.118019] (-) TimerEvent: {}
+[6.218348] (-) TimerEvent: {}
+[6.318738] (-) TimerEvent: {}
+[6.419235] (-) TimerEvent: {}
+[6.519624] (-) TimerEvent: {}
+[6.620081] (-) TimerEvent: {}
+[6.720492] (-) TimerEvent: {}
+[6.820789] (-) TimerEvent: {}
+[6.921181] (-) TimerEvent: {}
+[6.945416] (moveit) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/YAREN-main/moveit/src/move_yaren.cpp:\x1b[m\x1b[K In constructor '\x1b[01m\x1b[KMoveYaren::MoveYaren()\x1b[m\x1b[K':\n"}
+[6.945800] (moveit) StderrLine: {'line': b"\x1b[01m\x1b[K/home/user/ros2_ws/src/YAREN-main/moveit/src/move_yaren.cpp:15:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreference to '\x1b[01m\x1b[Kshared_from_this\x1b[m\x1b[K' is ambiguous\n"}
+[6.945949] (moveit) StderrLine: {'line': b'   15 | anning_interface::MoveGroupInterface>(\x1b[01;31m\x1b[Kshared_from_this\x1b[m\x1b[K(), "yaren_arm");\n'}
+[6.946066] (moveit) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.946190] (moveit) StderrLine: {'line': b'\n'}
+[6.946328] (moveit) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[6.946431] (moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[6.946536] (moveit) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/ros2_ws/src/YAREN-main/moveit/src/move_yaren.cpp:1\x1b[m\x1b[K:\n'}
+[6.946629] (moveit) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:811:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidates are: '\x1b[01m\x1b[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = MoveYaren]\x1b[m\x1b[K'\n"}
+[6.946720] (moveit) StderrLine: {'line': b'  811 |       \x1b[01;36m\x1b[Kshared_from_this\x1b[m\x1b[K() const\n'}
+[6.946812] (moveit) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.946905] (moveit) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:807:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                '\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = MoveYaren]\x1b[m\x1b[K'\n"}
+[6.947003] (moveit) StderrLine: {'line': b'  807 |       \x1b[01;36m\x1b[Kshared_from_this\x1b[m\x1b[K()\n'}
+[6.947093] (moveit) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.947182] (moveit) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:811:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                '\x1b[01m\x1b[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::shared_from_this() const [with _Tp = rclcpp::Node]\x1b[m\x1b[K'\n"}
+[6.947280] (moveit) StderrLine: {'line': b'  811 |       \x1b[01;36m\x1b[Kshared_from_this\x1b[m\x1b[K() const\n'}
+[6.947388] (moveit) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.947497] (moveit) StderrLine: {'line': b"\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:807:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                '\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::shared_from_this() [with _Tp = rclcpp::Node]\x1b[m\x1b[K'\n"}
+[6.947616] (moveit) StderrLine: {'line': b'  807 |       \x1b[01;36m\x1b[Kshared_from_this\x1b[m\x1b[K()\n'}
+[6.947729] (moveit) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.021307] (-) TimerEvent: {}
+[7.121811] (-) TimerEvent: {}
+[7.224031] (-) TimerEvent: {}
+[7.324425] (-) TimerEvent: {}
+[7.424749] (-) TimerEvent: {}
+[7.525189] (-) TimerEvent: {}
+[7.625560] (-) TimerEvent: {}
+[7.725937] (-) TimerEvent: {}
+[7.826298] (-) TimerEvent: {}
+[7.926642] (-) TimerEvent: {}
+[8.027009] (-) TimerEvent: {}
+[8.127374] (-) TimerEvent: {}
+[8.227749] (-) TimerEvent: {}
+[8.328170] (-) TimerEvent: {}
+[8.428565] (-) TimerEvent: {}
+[8.528966] (-) TimerEvent: {}
+[8.629300] (-) TimerEvent: {}
+[8.729638] (-) TimerEvent: {}
+[8.830024] (-) TimerEvent: {}
+[8.930417] (-) TimerEvent: {}
+[9.030784] (-) TimerEvent: {}
+[9.131143] (-) TimerEvent: {}
+[9.231494] (-) TimerEvent: {}
+[9.331802] (-) TimerEvent: {}
+[9.432154] (-) TimerEvent: {}
+[9.532564] (-) TimerEvent: {}
+[9.633734] (-) TimerEvent: {}
+[9.734067] (-) TimerEvent: {}
+[9.834472] (-) TimerEvent: {}
+[9.934859] (-) TimerEvent: {}
+[10.035211] (-) TimerEvent: {}
+[10.135558] (-) TimerEvent: {}
+[10.235865] (-) TimerEvent: {}
+[10.336267] (-) TimerEvent: {}
+[10.436609] (-) TimerEvent: {}
+[10.536974] (-) TimerEvent: {}
+[10.637299] (-) TimerEvent: {}
+[10.737673] (-) TimerEvent: {}
+[10.837993] (-) TimerEvent: {}
+[10.938352] (-) TimerEvent: {}
+[11.038654] (-) TimerEvent: {}
+[11.139034] (-) TimerEvent: {}
+[11.239393] (-) TimerEvent: {}
+[11.339759] (-) TimerEvent: {}
+[11.440100] (-) TimerEvent: {}
+[11.540402] (-) TimerEvent: {}
+[11.640770] (-) TimerEvent: {}
+[11.744540] (-) TimerEvent: {}
+[11.844926] (-) TimerEvent: {}
+[11.945336] (-) TimerEvent: {}
+[12.045720] (-) TimerEvent: {}
+[12.146039] (-) TimerEvent: {}
+[12.246386] (-) TimerEvent: {}
+[12.346710] (-) TimerEvent: {}
+[12.447104] (-) TimerEvent: {}
+[12.547487] (-) TimerEvent: {}
+[12.560605] (moveit) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/move_yaren.dir/build.make:76: CMakeFiles/move_yaren.dir/src/move_yaren.cpp.o] Error 1\n'}
+[12.561899] (moveit) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_yaren.dir/all] Error 2\n'}
+[12.562020] (moveit) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.563361] (moveit) CommandEnded: {'returncode': 2}
+[12.648352] (-) TimerEvent: {}
+[12.653494] (moveit) JobEnded: {'identifier': 'moveit', 'rc': 2}
+[12.664133] (-) EventReactorShutdown: {}

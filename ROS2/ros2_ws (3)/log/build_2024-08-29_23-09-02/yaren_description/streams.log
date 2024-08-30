@@ -1,0 +1,62 @@
+[0.040s] Invoking command in '/home/user/ros2_ws/build/yaren_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/yaren_description -- -j8 -l8
+[0.075s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.307s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.323s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.324s] -- Found geometry_msgs: 4.2.3 (/home/simulations/ros2_sims_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[0.368s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.371s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.381s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.401s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.425s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.615s] -- Found rosidl_default_generators: 1.2.0 (/home/simulations/ros2_sims_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[0.744s] -- Configuring done
+[0.752s] -- Generating done
+[0.757s] -- Build files have been written to: /home/user/ros2_ws/build/yaren_description
+[0.803s] Invoked command in '/home/user/ros2_ws/build/yaren_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/yaren_description -- -j8 -l8
+[0.900s] Invoking command in '/home/user/ros2_ws/build/yaren_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/yaren_description
+[0.912s] -- Install configuration: ""
+[0.912s] -- Execute custom install script
+[0.913s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//config/joint_names_yaren_description.yaml
+[0.913s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//config/joint_trajectory_controller.yaml
+[0.913s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//launch/bringup.launch.py
+[0.914s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//launch/empty_world.launch.py
+[0.914s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//launch/robot_state_publisher.launch.py
+[0.914s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//launch/spawn_yaren.launch.py
+[0.914s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//launch/yaren_description.launch.py
+[0.914s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//launch/yaren_gazebo.launch.py
+[0.915s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//meshes/Link_1.STL
+[0.916s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//meshes/Link_10.STL
+[0.916s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//meshes/Link_11.STL
+[0.916s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//meshes/Link_12.STL
+[0.916s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//meshes/Link_2.STL
+[0.916s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//meshes/Link_3.STL
+[0.916s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//meshes/Link_4.STL
+[0.916s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//meshes/Link_5.STL
+[0.917s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//meshes/Link_6.STL
+[0.917s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//meshes/Link_7.STL
+[0.917s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//meshes/Link_8.STL
+[0.918s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//meshes/Link_9.STL
+[0.918s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//meshes/base_link.STL
+[0.918s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//urdf/yaren.urdf.xacro
+[0.918s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//urdf/yaren_description.urdf.xacro
+[0.918s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//urdf/yaren_gazebo.xacro
+[0.918s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//rviz/yaren.rviz
+[0.918s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description//world/empty_world.world
+[0.919s] -- Symlinking: /home/user/ros2_ws/install/yaren_description/share/yaren_description/config/yaren_description.srdf
+[0.941s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/ament_index/resource_index/package_run_dependencies/yaren_description
+[0.941s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/ament_index/resource_index/parent_prefix_path/yaren_description
+[0.942s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description/environment/ament_prefix_path.sh
+[0.942s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description/environment/ament_prefix_path.dsv
+[0.942s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description/environment/path.sh
+[0.943s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description/environment/path.dsv
+[0.943s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description/local_setup.bash
+[0.943s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description/local_setup.sh
+[0.943s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description/local_setup.zsh
+[0.943s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description/local_setup.dsv
+[0.943s] -- Symlinking: /home/user/ros2_ws/install/yaren_description/share/yaren_description/package.dsv
+[0.961s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/ament_index/resource_index/packages/yaren_description
+[0.961s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description/cmake/yaren_descriptionConfig.cmake
+[0.961s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description/cmake/yaren_descriptionConfig-version.cmake
+[0.961s] -- Up-to-date symlink: /home/user/ros2_ws/install/yaren_description/share/yaren_description/package.xml
+[0.961s] -- Up-to-date: /home/user/ros2_ws/install/yaren_description/share/yaren_description/config
+[0.965s] Invoked command in '/home/user/ros2_ws/build/yaren_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/yaren_description

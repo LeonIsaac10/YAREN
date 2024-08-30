@@ -1,0 +1,233 @@
+[0.214s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.215s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, lookup_in_workspace=False, cargo_args=None, clean_build=False, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f330fada050>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f330fad94e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f330fad94e0>>, mixin_verb=('build',))
+[0.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.539s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/ros2_ws'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ament_cargo']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ament_cargo'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cargo', 'cmake', 'python']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cargo'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ament_cargo']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ament_cargo'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cargo', 'cmake', 'python']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cargo'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main) by extensions ['ignore', 'ignore_ament_install']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main) by extension 'ignore'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main) by extension 'ignore_ament_install'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main) by extensions ['colcon_pkg']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main) by extension 'colcon_pkg'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main) by extensions ['colcon_meta']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main) by extension 'colcon_meta'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main) by extensions ['ament_cargo']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main) by extension 'ament_cargo'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main) by extensions ['ros']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main) by extension 'ros'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main) by extensions ['cargo', 'cmake', 'python']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main) by extension 'cargo'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main) by extension 'cmake'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main) by extension 'python'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main) by extensions ['python_setup_py']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main) by extension 'python_setup_py'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/moveit) by extension 'ignore'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/moveit) by extension 'ignore_ament_install'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/moveit) by extensions ['colcon_pkg']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/moveit) by extension 'colcon_pkg'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/moveit) by extensions ['colcon_meta']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/moveit) by extension 'colcon_meta'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/moveit) by extensions ['ament_cargo']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/moveit) by extension 'ament_cargo'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/moveit) by extensions ['ros']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/moveit) by extension 'ros'
+[0.570s] DEBUG:colcon.colcon_core.package_identification:Package 'src/YAREN-main/moveit' with type 'ros.ament_cmake' and name 'moveit'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/yaren_description) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/yaren_description) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/yaren_description) by extension 'ignore_ament_install'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/yaren_description) by extensions ['colcon_pkg']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/yaren_description) by extension 'colcon_pkg'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/yaren_description) by extensions ['colcon_meta']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/yaren_description) by extension 'colcon_meta'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/yaren_description) by extensions ['ament_cargo']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/yaren_description) by extension 'ament_cargo'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/yaren_description) by extensions ['ros']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/YAREN-main/yaren_description) by extension 'ros'
+[0.572s] DEBUG:colcon.colcon_core.package_identification:Package 'src/YAREN-main/yaren_description' with type 'ros.ament_cmake' and name 'yaren_description'
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.573s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.573s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.573s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'yaren_description' build argument 'lookup_in_workspace' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'yaren_description' build argument 'cargo_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'yaren_description' build argument 'clean_build' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'yaren_description' build argument 'cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'yaren_description' build argument 'cmake_target' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'yaren_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'yaren_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'yaren_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'yaren_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'yaren_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'yaren_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'yaren_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.626s] DEBUG:colcon.colcon_core.verb:Building package 'yaren_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/build/yaren_description', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/install/yaren_description', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/user/ros2_ws/src/YAREN-main/yaren_description', 'symlink_install': False, 'test_result_base': None}
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'lookup_in_workspace' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'cargo_args' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'clean_build' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'cmake_args' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'cmake_target' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.627s] DEBUG:colcon.colcon_core.verb:Building package 'moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/build/moveit', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/install/moveit', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/user/ros2_ws/src/YAREN-main/moveit', 'symlink_install': False, 'test_result_base': None}
+[0.627s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.630s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.630s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/ros2_ws/src/YAREN-main/yaren_description' with build type 'ament_cmake'
+[0.630s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/ros2_ws/src/YAREN-main/yaren_description'
+[0.633s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.634s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.634s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/yaren_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/yaren_description -- -j8 -l8
+[0.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/yaren_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/yaren_description -- -j8 -l8
+[0.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/yaren_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/yaren_description
+[0.876s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yaren_description)
+[0.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/yaren_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/yaren_description
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/yaren_description' for CMake module files
+[0.882s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/yaren_description' for CMake config files
+[0.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('yaren_description', 'cmake_prefix_path')
+[0.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/yaren_description/share/yaren_description/hook/cmake_prefix_path.ps1'
+[0.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/yaren_description/share/yaren_description/hook/cmake_prefix_path.dsv'
+[0.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/yaren_description/share/yaren_description/hook/cmake_prefix_path.sh'
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/yaren_description/bin'
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/yaren_description/lib/pkgconfig/yaren_description.pc'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/yaren_description/lib/python3.10/site-packages'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/yaren_description/bin'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/yaren_description/share/yaren_description/package.ps1'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/yaren_description/share/yaren_description/package.dsv'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/yaren_description/share/yaren_description/package.sh'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/yaren_description/share/yaren_description/package.bash'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/yaren_description/share/yaren_description/package.zsh'
+[0.896s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/yaren_description/share/colcon-core/packages/yaren_description)
+[0.988s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yaren_description)
+[0.988s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/yaren_description' for CMake module files
+[0.989s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/yaren_description' for CMake config files
+[0.990s] Level 1:colcon.colcon_core.shell:create_environment_hook('yaren_description', 'cmake_prefix_path')
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/yaren_description/share/yaren_description/hook/cmake_prefix_path.ps1'
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/yaren_description/share/yaren_description/hook/cmake_prefix_path.dsv'
+[0.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/yaren_description/share/yaren_description/hook/cmake_prefix_path.sh'
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/yaren_description/bin'
+[0.993s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/yaren_description/lib/pkgconfig/yaren_description.pc'
+[0.993s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/yaren_description/lib/python3.10/site-packages'
+[0.993s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/yaren_description/bin'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/yaren_description/share/yaren_description/package.ps1'
+[0.995s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/yaren_description/share/yaren_description/package.dsv'
+[0.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/yaren_description/share/yaren_description/package.sh'
+[0.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/yaren_description/share/yaren_description/package.bash'
+[0.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/yaren_description/share/yaren_description/package.zsh'
+[0.997s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/yaren_description/share/colcon-core/packages/yaren_description)
+[0.998s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/ros2_ws/src/YAREN-main/moveit' with build type 'ament_cmake'
+[0.998s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/ros2_ws/src/YAREN-main/moveit'
+[1.003s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.003s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/moveit': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/yaren_description:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/ros2_ws/install/moveit:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/moveit -- -j8 -l8
+[1.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/moveit' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/yaren_description:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/ros2_ws/install/moveit:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/moveit -- -j8 -l8
+[1.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/moveit': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/yaren_description:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/ros2_ws/install/moveit:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/moveit
+[1.316s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit)
+[1.317s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/moveit' for CMake module files
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/moveit' for CMake config files
+[1.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit', 'cmake_prefix_path')
+[1.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/moveit/share/moveit/hook/cmake_prefix_path.ps1'
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/moveit/share/moveit/hook/cmake_prefix_path.dsv'
+[1.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/moveit' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/yaren_description:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/ros2_ws/install/moveit:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/moveit
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/moveit/share/moveit/hook/cmake_prefix_path.sh'
+[1.323s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/moveit/lib'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/moveit/bin'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/moveit/lib/pkgconfig/moveit.pc'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/moveit/lib/python3.10/site-packages'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/moveit/bin'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/moveit/share/moveit/package.ps1'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/moveit/share/moveit/package.dsv'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/moveit/share/moveit/package.sh'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/moveit/share/moveit/package.bash'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/moveit/share/moveit/package.zsh'
+[1.328s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/moveit/share/colcon-core/packages/moveit)
+[1.424s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit)
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/moveit' for CMake module files
+[1.425s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/moveit' for CMake config files
+[1.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit', 'cmake_prefix_path')
+[1.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/moveit/share/moveit/hook/cmake_prefix_path.ps1'
+[1.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/moveit/share/moveit/hook/cmake_prefix_path.dsv'
+[1.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/moveit/share/moveit/hook/cmake_prefix_path.sh'
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/moveit/lib'
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/moveit/bin'
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/moveit/lib/pkgconfig/moveit.pc'
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/moveit/lib/python3.10/site-packages'
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/moveit/bin'
+[1.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/moveit/share/moveit/package.ps1'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/moveit/share/moveit/package.dsv'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/moveit/share/moveit/package.sh'
+[1.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/moveit/share/moveit/package.bash'
+[1.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/moveit/share/moveit/package.zsh'
+[1.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/moveit/share/colcon-core/packages/moveit)
+[1.431s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.432s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.432s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.432s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.442s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.442s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.442s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.442s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.447s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[1.447s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.448s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/install/local_setup.ps1'
+[1.450s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_ws/install/_local_setup_util_ps1.py'
+[1.452s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/install/setup.ps1'
+[1.456s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/install/local_setup.sh'
+[1.457s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_ws/install/_local_setup_util_sh.py'
+[1.457s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/install/setup.sh'
+[1.462s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/install/local_setup.bash'
+[1.462s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/install/setup.bash'
+[1.466s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/install/local_setup.zsh'
+[1.466s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/install/setup.zsh'

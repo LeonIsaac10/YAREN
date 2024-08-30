@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws/install
+
+Name: yaren_moveit
+Description: Description of yaren_moveit
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
